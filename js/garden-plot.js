@@ -61,11 +61,7 @@ $(function(){
 
             switch(curGeo.state){
                 case "Свободен":
-                	console.log('#'+geo);
-    				var p=$('#'+geo)[0];
-                	console.log(p);
                 	$('#'+geo).addClass('garden-plot_free');
-                	//document.querySelector('#'+geo).addClass('garden-plot_free');
                     polygon=L.polygon(latlng,{className:'garden-plot_free'}).addTo(map02);
                     break
                 case "Забронирован":
@@ -82,6 +78,9 @@ $(function(){
                     break
                 case "Дорога":
                     polygon=L.polygon(latlng,{className:'garden-plot_road'}).addTo(map02);
+                    break
+                case "Дорога2":
+                    polygon=L.polygon(latlng,{className:'garden-plot_carriage-way'}).addTo(map02);
                     break
                 default:
                     //polygon=L.polygon(latlng,{className:'garden-plot'}).addTo(map01);

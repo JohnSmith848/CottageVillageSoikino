@@ -13,60 +13,58 @@
 	margin:0 auto;
 	cursor:default;
 }
-
+.ll-map .leaflet-tile-pane{
+	filter:saturate(10);
+}
 .garden-plot_free{
-	fill:lightgreen;
-	fill-opacity:.2;
-	stroke:lightgreen;
+	fill:darkgreen;
+	fill-opacity:.7;
+	stroke:white;
 	opacity:1;
 }
 .garden-plot_free:hover{
-/*	fill:lightgreen;*/
 	fill-opacity:1;
 }
 .garden-plot_no-sale{
 	fill:lightgray;
-	fill-opacity:.2;
-	stroke:lightgray;
+	fill-opacity:.7;
+	stroke:white;
 	opacity:1;
 }
 .garden-plot_no-sale:hover{
-	fill:gray;
-	fill-opacity:.2;
-	stroke:gray;
-	opacity:1;
+	fill-opacity:1;
 }
 .garden-plot_booked{
 	fill:yellow;
-	fill-opacity:.2;
-	stroke:yellow;
+	fill-opacity:.7;
+	stroke:white;
 	opacity:1;
 }
 .garden-plot_booked:hover{
 	fill-opacity:1;
 }
 .garden-plot_bought{
-	fill:magenta;
-	fill-opacity:.2;
-	stroke:magenta;
+	fill:red;
+	fill-opacity:.7;
+	stroke:white;
 	opacity:1;
 }
 .garden-plot_bought:hover{
 	fill-opacity:1;
 }
 .garden-plot_unknown{
-	fill:brown;
-	fill-opacity:.2;
-	stroke:brown;
+	fill:rgb(225,225,225);
+	fill-opacity:.7;
+	stroke:rgb(225,225,225);
 	opacity:1;
 }
 .garden-plot_unknown:hover{
-	fill-opacity:.4;
+	fill-opacity:1;
 }
 .garden-plot_road{
-	fill:darkgreen;
+	fill:rgb(199,188,186);
 	fill-opacity:1;
-	stroke:darkgreen;
+	stroke:rgb(199,188,186);
 /*	fill-opacity:.2;
 	opacity:1;*/
 }
