@@ -1,0 +1,126 @@
+*, :after, :before{
+	box-sizing: border-box;
+}
+
+
+.body{
+	margin-top:100px;
+	font-style:normal;
+}
+
+/*map styles*/
+.ll-map{
+	margin:0 auto;
+	cursor:default;
+}
+
+.garden-plot_free{
+	fill:lightgreen;
+	fill-opacity:.2;
+	stroke:lightgreen;
+	opacity:1;
+}
+.garden-plot_free:hover{
+/*	fill:lightgreen;*/
+	fill-opacity:1;
+}
+.garden-plot_no-sale{
+	fill:lightgray;
+	fill-opacity:.2;
+	stroke:lightgray;
+	opacity:1;
+}
+.garden-plot_no-sale:hover{
+	fill:gray;
+	fill-opacity:.2;
+	stroke:gray;
+	opacity:1;
+}
+.garden-plot_booked{
+	fill:yellow;
+	fill-opacity:.2;
+	stroke:yellow;
+	opacity:1;
+}
+.garden-plot_booked:hover{
+	fill-opacity:1;
+}
+.garden-plot_bought{
+	fill:magenta;
+	fill-opacity:.2;
+	stroke:magenta;
+	opacity:1;
+}
+.garden-plot_bought:hover{
+	fill-opacity:1;
+}
+.garden-plot_unknown{
+	fill:brown;
+	fill-opacity:.2;
+	stroke:brown;
+	opacity:1;
+}
+.garden-plot_unknown:hover{
+	fill-opacity:.4;
+}
+.garden-plot_road{
+	fill:darkgreen;
+	fill-opacity:1;
+	stroke:darkgreen;
+/*	fill-opacity:.2;
+	opacity:1;*/
+}
+/*popup styles*/
+.map-popup__price,
+.map-popup__area,
+.map-popup__desc,
+.map-popup__state,
+.map-popup__header{
+	color:#6d6131;
+	font-family:sans-serif;
+	white-space:normal;
+	width:300px;
+}
+.map-popup__price,
+.map-popup__header{
+	font-size:22px;
+}
+.map-popup__header{
+	background:-moz-linear-gradient(0deg,green 0%,white 100%);
+	color:magenta;
+	text-align:center;
+}
+.map-popup__get-book,
+.map-popup__area,
+.map-popup__desc,
+.map-popup__state{
+	font-size:18px;
+	display:block;
+}
+.map-popup__state{
+
+}
+.map-popup__desc{
+
+}
+.map-popup__area{
+
+}
+.map-popup__price{
+
+}
+.map-popup__get-book{
+	background-color:#6d6131;
+	color:#afa277;
+	height:54px;
+	width:268px;
+	border:none;
+	border-radius:27px;
+}
+.map-popup__get-book:hover{
+	background-color:darkgreen;
+	color:lime;
+}
+/*popup styles end*/
+/*map styles end*/
+
